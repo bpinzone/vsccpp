@@ -45,7 +45,10 @@ OBJECTS		= $(SOURCES:%.cpp=%.o)
 PROJECTFILE = main.cpp
 
 #Default Flags (would prefer -std=c++17 but Mac/Xcode/Clang doesn't support)
-CXXFLAGS = -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic 
+# Strict
+# CXXFLAGS = -std=c++1z -Wconversion -Wall -Werror -Wextra -pedantic
+# I do what I want.
+CXXFLAGS = -std=c++1z
 
 # make release - will compile "all" with $(CXXFLAGS) and the -O3 flag
 #				 also defines NDEBUG so that asserts will not check
