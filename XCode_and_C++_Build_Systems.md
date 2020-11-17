@@ -11,3 +11,9 @@
     * Go to Run -> Info -> Executable
         * Select your executable file.
 * You should be able to build, set break points, and debug!
+
+## You can also just have XCode do its thing w/o using the build system.
+* Add the files to the project, to a target, without copying
+* Executable should be set up automatically if you created the project.
+* You probably want to use a custom working directory.
+    * ? -> Run -> Options
